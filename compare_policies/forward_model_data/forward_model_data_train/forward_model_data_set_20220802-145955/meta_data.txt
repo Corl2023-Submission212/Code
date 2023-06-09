@@ -1,0 +1,15 @@
+Sequence Time Limit: 5
+Pause Time: 3
+Number of Data Points: 30
+Frequency of Data Collection: variable
+Theta 3 Bounds (deg): [-45, 45]
+Theta 4 Bounds (deg): [-90, 90]
+Bending Pressure Bounds (psi): [7, 35]
+Rotating Pressure Bounds (psi): [-35, 35]
+Extrustion Length Bounds (cm): [10, 16]
+Delta Theta 3 (deg): 5
+Delta Theta 4 (deg): 10
+Delta Bending Pressure (psi): 3
+Delta Rotating Pressure (psi): 3
+Delta  Extrusion Length (cm): 0.7
+Data format: data.append([time_now, self._cur_rigid_arm_config_deg, self._cur_theta_4_deg, self._cur_pressure_fb, self._cur_sensor_pose, seq_time, self._cur_extrusion, dt, dtau, self._cur_soft_arm_config])
